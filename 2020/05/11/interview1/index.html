@@ -22,17 +22,17 @@
 
   <meta name="description" content="1.const作用 修饰变量，说明该变量不可以被改变； 修饰指针，分为指向常量的指针和指针常量； 常量引用，经常用于形参类型，即避免了拷贝，又避免了函数对值的修改； 修饰成员函数，说明该成员函数内不能修改成员变量。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="小抄1">
-<meta property="og:url" content="http://yoursite.com/2020/05/11/%E5%B0%8F%E6%8A%841/index.html">
+<meta property="og:title" content="interview1">
+<meta property="og:url" content="http://yoursite.com/2020/05/11/interview1/index.html">
 <meta property="og:site_name" content="Mark">
 <meta property="og:description" content="1.const作用 修饰变量，说明该变量不可以被改变； 修饰指针，分为指向常量的指针和指针常量； 常量引用，经常用于形参类型，即避免了拷贝，又避免了函数对值的修改； 修饰成员函数，说明该成员函数内不能修改成员变量。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-05-11T03:14:57.802Z">
-<meta property="article:modified_time" content="2020-05-11T10:00:54.846Z">
+<meta property="article:modified_time" content="2020-05-11T10:11:48.222Z">
 <meta property="article:author" content="mark">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/2020/05/11/%E5%B0%8F%E6%8A%841/">
+<link rel="canonical" href="http://yoursite.com/2020/05/11/interview1/">
 
 
 <script id="page-configurations">
@@ -45,7 +45,7 @@
   };
 </script>
 
-  <title>小抄1 | Mark</title>
+  <title>interview1 | Mark</title>
   
 
 
@@ -151,7 +151,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/11/%E5%B0%8F%E6%8A%841/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/11/interview1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -164,7 +164,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          小抄1
+          interview1
         </h1>
 
         <div class="post-meta">
@@ -175,7 +175,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-05-11 11:14:57 / 修改时间：18:00:54" itemprop="dateCreated datePublished" datetime="2020-05-11T11:14:57+08:00">2020-05-11</time>
+              <time title="创建时间：2020-05-11 11:14:57 / 修改时间：18:11:48" itemprop="dateCreated datePublished" datetime="2020-05-11T11:14:57+08:00">2020-05-11</time>
             </span>
 
           
@@ -218,7 +218,7 @@
 <li><p><code>this</code> 并不是一个常规变量，<strong>而是个右值</strong>，所以不能取得 <code>this</code> 的地址（不能 <code>&amp;this</code>）。</p>
 </li>
 <li><p>在以下场景中，经常需要显式引用 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">this</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">this</span></span><br></pre></td></tr></table></figure>
 
 <p> 指针：</p>
 <ol>
@@ -240,7 +240,7 @@
 <h2 id="虚函数（virtual）可以是内联函数（inline）吗"><a href="#虚函数（virtual）可以是内联函数（inline）吗" class="headerlink" title="虚函数（virtual）可以是内联函数（inline）吗"></a>虚函数（virtual）可以是内联函数（inline）吗</h2><p>虚函数内联使用</p>
 <figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;  </span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Base</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">who</span><span class="params">()</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">"I am Base\n"</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">virtual</span> ~Base() &#123;&#125;</span><br><span class="line">&#125;;</span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Derived</span> :</span> <span class="keyword">public</span> Base</span><br><span class="line">&#123;</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">who</span><span class="params">()</span>  <span class="comment">// 不写inline时隐式内联</span></span></span><br><span class="line"><span class="function">    </span>&#123;</span><br><span class="line">        <span class="built_in">cout</span> &lt;&lt; <span class="string">"I am Derived\n"</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="comment">// 此处的虚函数 who()，是通过类（Base）的具体对象（b）来调用的，编译期间就能确定了，所以它可以是内联的，但最终是否内联取决于编译器。 </span></span><br><span class="line">    Base b;</span><br><span class="line">    b.who();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 此处的虚函数是通过指针调用的，呈现多态性，需要在运行时期间才能确定，所以不能为内联。  </span></span><br><span class="line">    Base *ptr = <span class="keyword">new</span> Derived();</span><br><span class="line">    ptr-&gt;who();</span><br><span class="line"></span><br><span class="line">    <span class="comment">// 因为Base有虚析构函数（virtual ~Base() &#123;&#125;），所以 delete 时，会先调用派生类（Derived）析构函数，再调用基类（Base）析构函数，防止内存泄漏。</span></span><br><span class="line">    <span class="keyword">delete</span> ptr;</span><br><span class="line">    ptr = <span class="literal">nullptr</span>;</span><br><span class="line"></span><br><span class="line">    system(<span class="string">"pause"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<h1 id="5-volatile"><a href="#5-volatile" class="headerlink" title="5.volatile"></a>5.volatile</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">volatile int i &#x3D; 10;</span><br></pre></td></tr></table></figure>
+<h1 id="5-volatile"><a href="#5-volatile" class="headerlink" title="5.volatile"></a>5.volatile</h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">volatile</span> <span class="keyword">int</span> i = <span class="number">10</span>;</span><br></pre></td></tr></table></figure>
 
 <ul>
 <li>volatile 关键字是一种类型修饰符，用它声明的类型变量表示可以被某些编译器未知的因素（操作系统、硬件、其它线程等）更改。所以使用 volatile 告诉编译器不应对这样的对象进行优化。</li>
@@ -249,7 +249,7 @@
 <li>指针可以是 volatile</li>
 </ul>
 <h1 id="6-assert"><a href="#6-assert" class="headerlink" title="6.assert()"></a>6.assert()</h1><p>断言，是宏，而非函数。assert 宏的原型定义在 <code>（C）、</code>（C++）中，其作用是如果它的条件返回错误，则终止程序执行。可以通过定义 <code>NDEBUG</code> 来关闭 assert，但是需要在源代码的开头，<code>include</code> 之前。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">#define NDEBUG          &#x2F;&#x2F; 加上这行，则 assert 不可用</span><br><span class="line">#include &lt;assert.h&gt;</span><br><span class="line"></span><br><span class="line">assert( p !&#x3D; NULL );    &#x2F;&#x2F; assert 不可用</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">define</span> NDEBUG          <span class="comment">// 加上这行，则 assert 不可用</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;assert.h&gt;</span></span></span><br><span class="line"></span><br><span class="line">assert( p != <span class="literal">NULL</span> );    <span class="comment">// assert 不可用</span></span><br></pre></td></tr></table></figure>
 
 <h1 id="7-sizeof"><a href="#7-sizeof" class="headerlink" title="7.sizeof()"></a>7.sizeof()</h1><ul>
 <li>sizeof 对数组，得到整个数组所占空间大小。</li>
@@ -257,9 +257,9 @@
 </ul>
 <h1 id="8-pragma-pack-n"><a href="#8-pragma-pack-n" class="headerlink" title="8.#pragma pack(n)"></a>8.#pragma pack(n)</h1><p>设定结构体、联合以及类成员变量以 n 字节方式对齐</p>
 <p>#pragma pack(n) 使用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">#pragma pack(push)  &#x2F;&#x2F; 保存对齐状态</span><br><span class="line">#pragma pack(4)     &#x2F;&#x2F; 设定为 4 字节对齐</span><br><span class="line"></span><br><span class="line">struct test</span><br><span class="line">&#123;</span><br><span class="line">    char m1;</span><br><span class="line">    double m4;</span><br><span class="line">    int m3;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">#pragma pack(pop)   &#x2F;&#x2F; 恢复对齐状态</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> pack(push)  <span class="comment">// 保存对齐状态</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> pack(4)     <span class="comment">// 设定为 4 字节对齐</span></span></span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">test</span></span></span><br><span class="line"><span class="class">&#123;</span></span><br><span class="line">    <span class="keyword">char</span> m1;</span><br><span class="line">    <span class="keyword">double</span> m4;</span><br><span class="line">    <span class="keyword">int</span> m3;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">pragma</span> pack(pop)   <span class="comment">// 恢复对齐状态</span></span></span><br></pre></td></tr></table></figure>
 
-<h1 id="9-位域"><a href="#9-位域" class="headerlink" title="9.位域"></a>9.位域</h1><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Bit mode:2; &#x2F;&#x2F; mode 占 2 位</span><br></pre></td></tr></table></figure>
+<h1 id="9-位域"><a href="#9-位域" class="headerlink" title="9.位域"></a>9.位域</h1><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Bit mode:<span class="number">2</span>; <span class="comment">// mode 占 2 位</span></span><br></pre></td></tr></table></figure>
 
 <p>类可以将其（非静态）数据成员定义为位域（bit-field），在一个位域中含有一定数量的二进制位。当一个程序需要向其他程序或硬件设备传递二进制数据时，通常会用到位域。</p>
 <ul>
@@ -274,22 +274,22 @@
 </ul>
 <p><code>extern &quot;C&quot;</code> 的作用是让 C++ 编译器将 <code>extern &quot;C&quot;</code> 声明的代码当作 C 语言代码处理，可以避免 C++ 因符号修饰导致代码不能和C语言库中的符号进行链接的问题。</p>
 <p>extern “C” 使用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">#ifdef __cplusplus</span><br><span class="line">extern &quot;C&quot; &#123;</span><br><span class="line">#endif</span><br><span class="line"></span><br><span class="line">void *memset(void *, int, size_t);</span><br><span class="line"></span><br><span class="line">#ifdef __cplusplus</span><br><span class="line">&#125;</span><br><span class="line">#endif</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __cplusplus</span></span><br><span class="line"><span class="keyword">extern</span> <span class="string">"C"</span> &#123;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> *<span class="title">memset</span><span class="params">(<span class="keyword">void</span> *, <span class="keyword">int</span>, <span class="keyword">size_t</span>)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">ifdef</span> __cplusplus</span></span><br><span class="line">&#125;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">endif</span></span></span><br></pre></td></tr></table></figure>
 
-<h1 id="11-struct和typedef-struct"><a href="#11-struct和typedef-struct" class="headerlink" title="11.struct和typedef struct"></a>11.struct和typedef struct</h1><h2 id="c中"><a href="#c中" class="headerlink" title="c中"></a>c中</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; c</span><br><span class="line">typedef struct Student&#123;</span><br><span class="line">    int age;</span><br><span class="line">&#125; S;</span><br></pre></td></tr></table></figure>
+<h1 id="11-struct和typedef-struct"><a href="#11-struct和typedef-struct" class="headerlink" title="11.struct和typedef struct"></a>11.struct和typedef struct</h1><h2 id="c中"><a href="#c中" class="headerlink" title="c中"></a>c中</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// c</span></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Student</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> age;</span><br><span class="line">&#125; S;</span><br></pre></td></tr></table></figure>
 
 <p>等价于</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; c</span><br><span class="line">struct Student&#123;</span><br><span class="line">    int age;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">typedef struct Student S;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// c</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Student</span>&#123;</span></span><br><span class="line">    <span class="keyword">int</span> age;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Student</span> <span class="title">S</span>;</span></span><br></pre></td></tr></table></figure>
 
 <p>此时 S 等价于 struct Student，但两个标识符名称空间不相同。</p>
 <p>另外还可以定义与 struct Student 不冲突的 void Student() {}。</p>
 <h2 id="C-中"><a href="#C-中" class="headerlink" title="C++中"></a>C++中</h2><p>由于编译器定位符号的规则（搜索规则）改变，导致不同于C语言。</p>
 <p>一、如果在类标识符空间定义了 struct Student {…};，使用 Student me; 时，编译器将搜索全局标识符表，Student 未找到，则在类标识符内搜索。</p>
 <p>即表现为可以使用 Student 也可以使用 struct Student，如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; cpp</span><br><span class="line">struct Student &#123; </span><br><span class="line">    int age; </span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">void f( Student me );       &#x2F;&#x2F; 正确，&quot;struct&quot; 关键字可省略</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// cpp</span></span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Student</span> &#123;</span> </span><br><span class="line">    <span class="keyword">int</span> age; </span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">f</span><span class="params">( Student me )</span></span>;       <span class="comment">// 正确，"struct" 关键字可省略</span></span><br></pre></td></tr></table></figure>
 
 <p>二、若定义了与 Student 同名函数之后，则 Student 只代表函数，不代表结构体，如下：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">typedef struct Student &#123; </span><br><span class="line">    int age; </span><br><span class="line">&#125; S;</span><br><span class="line"></span><br><span class="line">void Student() &#123;&#125;           &#x2F;&#x2F; 正确，定义后 &quot;Student&quot; 只代表此函数</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F;void S() &#123;&#125;               &#x2F;&#x2F; 错误，符号 &quot;S&quot; 已经被定义为一个 &quot;struct Student&quot; 的别名</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    Student(); </span><br><span class="line">    struct Student me;      &#x2F;&#x2F; 或者 &quot;S me&quot;;</span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="class"><span class="keyword">struct</span> <span class="title">Student</span> &#123;</span> </span><br><span class="line">    <span class="keyword">int</span> age; </span><br><span class="line">&#125; S;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Student</span><span class="params">()</span> </span>&#123;&#125;           <span class="comment">// 正确，定义后 "Student" 只代表此函数</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//void S() &#123;&#125;               // 错误，符号 "S" 已经被定义为一个 "struct Student" 的别名</span></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span> </span>&#123;</span><br><span class="line">    Student(); </span><br><span class="line">    <span class="class"><span class="keyword">struct</span> <span class="title">Student</span> <span class="title">me</span>;</span>      <span class="comment">// 或者 "S me";</span></span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h1 id="12-C-中struct和class"><a href="#12-C-中struct和class" class="headerlink" title="12.C++中struct和class"></a>12.C++中struct和class</h1><p>总的来说，struct 更适合看成是一个数据结构的实现体，class 更适合看成是一个对象的实现体。</p>
 <h2 id="区别"><a href="#区别" class="headerlink" title="区别"></a>区别</h2><ul>
@@ -337,11 +337,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2020/05/11/%E5%B0%8F%E6%8A%842/" rel="next" title="小抄2">
-      小抄2 <i class="fa fa-chevron-right"></i>
+    <a href="/2020/05/11/interview2/" rel="prev" title="interview2">
+      <i class="fa fa-chevron-left"></i> interview2
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
