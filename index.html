@@ -148,106 +148,6 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/11/%E5%B0%8F%E6%8A%841/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="mark">
-      <meta itemprop="description" content="风月难缠，离合不骚">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Mark">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/05/11/%E5%B0%8F%E6%8A%841/" class="post-title-link" itemprop="url">小抄1</a>
-        </h2>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="far fa-calendar"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-              
-
-              <time title="创建时间：2020-05-11 11:14:57 / 修改时间：17:52:12" itemprop="dateCreated datePublished" datetime="2020-05-11T11:14:57+08:00">2020-05-11</time>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="1-const"><a href="#1-const" class="headerlink" title="1.const"></a>1.const</h1><h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><ol>
-<li>修饰变量，<strong>说明该变量不可以被改变</strong>；</li>
-<li>修饰指针，分为<strong>指向常量的指针和指针常量</strong>；</li>
-<li>常量引用，经常用于形参类型，即避免了拷贝，又避免了函数对值的修改；</li>
-<li>修饰<strong>成员函数</strong>，说明该成员函数内<strong>不能修改成员变量</strong>。</li>
-</ol>
-<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>const使用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br></pre></td><td class="code"><pre><span class="line">&#x2F;&#x2F; 类</span><br><span class="line">class A</span><br><span class="line">&#123;</span><br><span class="line">private:</span><br><span class="line">    const int a;                &#x2F;&#x2F; 常对象成员，只能在初始化列表赋值</span><br><span class="line"></span><br><span class="line">public:</span><br><span class="line">    &#x2F;&#x2F; 构造函数</span><br><span class="line">    A() : a(0) &#123; &#125;;</span><br><span class="line">    A(int x) : a(x) &#123; &#125;;        &#x2F;&#x2F; 初始化列表</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; const可用于对重载函数的区分</span><br><span class="line">    int getValue();             &#x2F;&#x2F; 普通成员函数</span><br><span class="line">    int getValue() const;       &#x2F;&#x2F; 常成员函数，不得修改类中的任何数据成员的值</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">void function()</span><br><span class="line">&#123;</span><br><span class="line">    &#x2F;&#x2F; 对象</span><br><span class="line">    A b;                        &#x2F;&#x2F; 普通对象，可以调用全部成员函数、更新常成员变量</span><br><span class="line">    const A a;                  &#x2F;&#x2F; 常对象，只能调用常成员函数</span><br><span class="line">    const A *p &#x3D; &amp;a;            &#x2F;&#x2F; 常指针</span><br><span class="line">    const A &amp;q &#x3D; a;             &#x2F;&#x2F; 常引用</span><br><span class="line"></span><br><span class="line">    &#x2F;&#x2F; 指针</span><br><span class="line">    char greeting[] &#x3D; &quot;Hello&quot;;</span><br><span class="line">    char* p1 &#x3D; greeting;                &#x2F;&#x2F; 指针变量，指向字符数组变量</span><br><span class="line">    const char* p2 &#x3D; greeting;          &#x2F;&#x2F; 指针变量，指向字符数组常量</span><br><span class="line">    char* const p3 &#x3D; greeting;          &#x2F;&#x2F; 常指针，指向字符数组变量</span><br><span class="line">    const char* const p4 &#x3D; greeting;    &#x2F;&#x2F; 常指针，指向字符数组常量</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 函数</span><br><span class="line">void function1(const int Var);           &#x2F;&#x2F; 传递过来的参数在函数内不可变</span><br><span class="line">void function2(const char* Var);         &#x2F;&#x2F; 参数指针所指内容为常量</span><br><span class="line">void function3(char* const Var);         &#x2F;&#x2F; 参数指针为常指针</span><br><span class="line">void function4(const int&amp; Var);          &#x2F;&#x2F; 引用参数在函数内为常量</span><br><span class="line"></span><br><span class="line">&#x2F;&#x2F; 函数返回值</span><br><span class="line">const int function5();      &#x2F;&#x2F; 返回一个常数</span><br><span class="line">const int* function6();     &#x2F;&#x2F; 返回一个指向常量的指针变量，使用：const int *p &#x3D; function6();</span><br><span class="line">int* const function7();     &#x2F;&#x2F; 返回一个指向变量的常指针，使用：int* const p &#x3D; function7();</span><br></pre></td></tr></table></figure>
-
-<h1 id="2-static"><a href="#2-static" class="headerlink" title="2.static"></a>2.static</h1><h2 id="作用-1"><a href="#作用-1" class="headerlink" title="作用"></a>作用</h2><ol>
-<li>修饰普通变量，修改变量的存储区域和生命周期，使变量存储在<strong>静态区</strong>，在 main 函数运行前就分配了空间，如果有初始值就用初始值初始化它，如果没有初始值系统用默认值初始化它。</li>
-<li>修饰普通函数，表明函数的作用范围，<strong>仅在定义该函数的文件内</strong>才能使用。在多人开发项目时，为了防止与他人命名空间里的函数重名，可以将函数定位为 static。</li>
-<li>修饰成员变量，<strong>修饰成员变量使所有的对象只保存一个该变量，而且不需要生成对象</strong>就可以访问该成员。</li>
-<li>修饰成员函数，修饰成员函数使得<strong>不需要生成对象就可以访问该函数</strong>，但是在 static 函数内不能访问非静态成员。</li>
-</ol>
-<h1 id="3-this指针"><a href="#3-this指针" class="headerlink" title="3.this指针"></a>3.this指针</h1><ol>
-<li><p><code>this</code> 指针是一个隐含于每一个非静态成员函数中的特殊指针。它指向调用该成员函数的那个对象。</p>
-</li>
-<li><p>当对一个对象调用成员函数时，编译程序<strong>先将对象的地址</strong>赋给 <code>this</code> 指针，然后调用成员函数，每次成员函数存取数据成员时，都隐式使用 <code>this</code> 指针。</p>
-</li>
-<li><p>当一个成员函数被调用时，自动向它传递一个隐含的参数，该参数是一个指向这个成员函数所在的对象的指针。</p>
-</li>
-<li><p><code>this</code> 指针被隐含地声明为: <code>ClassName *const this</code>，这意味着不能给 <code>this</code> 指针赋值；在 <code>ClassName</code> 类的 <code>const</code> 成员函数中，<code>this</code> 指针的类型为：<code>const ClassName* const</code>，这说明不能对 <code>this</code> 指针所指向的这种对象是<strong>不可修改的</strong>（即不能对这种对象的数据成员进行赋值操作）；</p>
-</li>
-<li><p><code>this</code> 并不是一个常规变量，<strong>而是个右值</strong>，所以不能取得 <code>this</code> 的地址（不能 <code>&amp;this</code>）。</p>
-</li>
-<li><p>在以下场景中，经常需要显式引用 </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">this</span><br></pre></td></tr></table></figure>
-
-<p> 指针：</p>
-<ol>
-<li>为实现对象的链式引用；</li>
-<li>为避免对同一对象进行赋值操作；</li>
-<li>在实现一些数据结构时，如 <code>list</code>。</li>
-</ol>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2020/05/11/%E5%B0%8F%E6%8A%841/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-      
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/11/%E5%B0%8F%E6%8A%842/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -273,7 +173,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-05-11 11:14:57 / 修改时间：16:37:56" itemprop="dateCreated datePublished" datetime="2020-05-11T11:14:57+08:00">2020-05-11</time>
+              <time title="创建时间：2020-05-11 11:14:57 / 修改时间：18:01:41" itemprop="dateCreated datePublished" datetime="2020-05-11T11:14:57+08:00">2020-05-11</time>
             </span>
 
           
@@ -294,43 +194,80 @@
 <li>友元关系的单向性</li>
 <li>友元声明的形式及数量不受限制</li>
 </ul>
-<h1 id="17-using"><a href="#17-using" class="headerlink" title="17.using"></a>17.using</h1><h2 id="using声明"><a href="#using声明" class="headerlink" title="using声明"></a>using声明</h2><p>一条 using 声明 语句一次只引入命名空间的一个成员。它使得我们可以清楚知道程序中所引用的到底是哪个名字。如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">using namespace_name::name;</span><br></pre></td></tr></table></figure>
-
-<h2 id="构造函数的using声明"><a href="#构造函数的using声明" class="headerlink" title="构造函数的using声明"></a>构造函数的using声明</h2><p>在 C++11 中，派生类能够重用其直接基类定义的构造函数。</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">class Derived : Base &#123;</span><br><span class="line">public:</span><br><span class="line">    using Base::Base;</span><br><span class="line">    &#x2F;* ... *&#x2F;</span><br><span class="line">&#125;;</span><br></pre></td></tr></table></figure>
-
-<p>如上 using 声明，对于基类的每个构造函数，编译器都生成一个与之对应（形参列表完全相同）的派生类构造函数。生成如下类型构造函数：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Derived(parms) : Base(args) &#123; &#125;</span><br></pre></td></tr></table></figure>
-
-<h2 id="using指示"><a href="#using指示" class="headerlink" title="using指示"></a>using指示</h2><p>using 指示 使得某个特定命名空间中所有名字都可见，这样我们就无需再为它们添加任何前缀限定符了。如：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">using namespace_name name;</span><br></pre></td></tr></table></figure>
-
-<h2 id="尽量少使用-using-指示-污染命名空间"><a href="#尽量少使用-using-指示-污染命名空间" class="headerlink" title="尽量少使用 using 指示 污染命名空间"></a>尽量少使用 using 指示 污染命名空间</h2><p>一般说来，使用 using 命令比使用 using 编译命令更安全，这是由于它只导入了指定的名称。如果该名称与局部名称发生冲突，编译器将发出指示。using编译命令导入所有的名称，包括可能并不需要的名称。如果与局部名称发生冲突，则局部名称将覆盖名称空间版本，而编译器并不会发出警告。另外，名称空间的开放性意味着名称空间的名称可能分散在多个地方，这使得难以准确知道添加了哪些名称。</p>
-<p>using使用</p>
-<p>尽量少使用 using 指示</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">using namespace std;</span><br></pre></td></tr></table></figure>
-
-<p>应该多使用 using 声明</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">int x;</span><br><span class="line">std::cin &gt;&gt; x ;</span><br><span class="line">std::cout &lt;&lt; x &lt;&lt; std::endl;</span><br></pre></td></tr></table></figure>
-
-<p>或者</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">using std::cin;</span><br><span class="line">using std::cout;</span><br><span class="line">using std::endl;</span><br><span class="line">int x;</span><br><span class="line">cin &gt;&gt; x;</span><br><span class="line">cout &lt;&lt; x &lt;&lt; endl;</span><br></pre></td></tr></table></figure>
-
-<h1 id="18-范围解析运算符"><a href="#18-范围解析运算符" class="headerlink" title="18.::范围解析运算符"></a>18.::范围解析运算符</h1><h2 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h2><ol>
-<li>全局作用域符（::name）：用于类型名称（类、类成员、成员函数、变量等）前，表示作用域为全局命名空间</li>
-<li>类作用域符（class::name）：用于表示指定类型的作用域范围是具体某个类的</li>
-<li>命名空间作用域符（namespace::name）:用于表示指定类型的作用域范围是具体某个命名空间的</li>
-</ol>
-<p>:: 使用</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">int count &#x3D; 0;        &#x2F;&#x2F; 全局（::）的 count</span><br><span class="line"></span><br><span class="line">class A &#123;</span><br><span class="line">public:</span><br><span class="line">    static int count; &#x2F;&#x2F; 类 A 的 count（A::count）</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line">int main() &#123;</span><br><span class="line">    ::count &#x3D; 1;      &#x2F;&#x2F; 设置全局的 count 的值为 1</span><br><span class="line"></span><br><span class="line">    A::count &#x3D; 2;     &#x2F;&#x2F; 设置类 A 的 count 为 2</span><br><span class="line"></span><br><span class="line">    int count &#x3D; 0;    &#x2F;&#x2F; 局部的 count</span><br><span class="line">    count &#x3D; 3;        &#x2F;&#x2F; 设置局部的 count 的值为 3</span><br><span class="line"></span><br><span class="line">    return 0;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<h1 id="19-enum枚举类型"><a href="#19-enum枚举类型" class="headerlink" title="19.enum枚举类型"></a>19.enum枚举类型</h1><h2 id="限定作用域的枚举类型"><a href="#限定作用域的枚举类型" class="headerlink" title="限定作用域的枚举类型"></a>限定作用域的枚举类型</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">enum class open_modes &#123;input,output,append&#125;;</span><br></pre></td></tr></table></figure>
-
-<h2 id="不限定作用域的枚举类型"><a href="#不限定作用域的枚举类型" class="headerlink" title="不限定作用域的枚举类型"></a>不限定作用域的枚举类型</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">enum color &#123;red,yellow,green&#125;;</span><br><span class="line">enum &#123;floatPrec&#x3D;6,doublePrec&#x3D;10&#125;;</span><br></pre></td></tr></table></figure>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/05/11/%E5%B0%8F%E6%8A%842/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/05/11/%E5%B0%8F%E6%8A%841/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="mark">
+      <meta itemprop="description" content="风月难缠，离合不骚">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Mark">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/05/11/%E5%B0%8F%E6%8A%841/" class="post-title-link" itemprop="url">小抄1</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-05-11 11:14:57 / 修改时间：18:00:54" itemprop="dateCreated datePublished" datetime="2020-05-11T11:14:57+08:00">2020-05-11</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="1-const"><a href="#1-const" class="headerlink" title="1.const"></a>1.const</h1><h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><ol>
+<li>修饰变量，<strong>说明该变量不可以被改变</strong>；</li>
+<li>修饰指针，分为<strong>指向常量的指针和指针常量</strong>；</li>
+<li>常量引用，经常用于形参类型，即避免了拷贝，又避免了函数对值的修改；</li>
+<li>修饰<strong>成员函数</strong>，说明该成员函数内<strong>不能修改成员变量</strong>。</li>
+</ol>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/05/11/%E5%B0%8F%E6%8A%841/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
