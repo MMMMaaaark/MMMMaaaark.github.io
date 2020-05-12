@@ -606,7 +606,7 @@
 <p>原因：C++ 是静态绑定语言，编译器管理栈上对象的生命周期，编译器在为类对象分配栈空间时，会先检查类的析构函数的访问性。若析构函数不可访问，则不能在栈上创建对象。</p>
 <h2 id="只能在栈上"><a href="#只能在栈上" class="headerlink" title="只能在栈上"></a>只能在栈上</h2><p>方法：将 new 和 delete 重载为私有</p>
 <p>原因：在堆上生成对象，使用 new 关键词操作，其过程分为两阶段：第一阶段，使用 new 在堆上寻找可用内存，分配给对象；第二阶段，调用构造函数生成对象。将 new 操作设置为私有，那么第一阶段就无法完成，就不能够在堆上生成对象。</p>
-<h1 id="39-智能指针"><a href="#39-智能指针" class="headerlink" title="39.智能指针"></a>39.智能指针</h1><h2 id="C-标准库-STL-中"><a href="#C-标准库-STL-中" class="headerlink" title="C++ 标准库(STL)中"></a>C++ 标准库(STL)中</h2><p>头文件：#include <memory></p>
+<h1 id="39-智能指针"><a href="#39-智能指针" class="headerlink" title="39.智能指针"></a>39.智能指针</h1><h2 id="C-标准库-STL-中"><a href="#C-标准库-STL-中" class="headerlink" title="C++ 标准库(STL)中"></a>C++ 标准库(STL)中</h2><p>头文件：#include <memory></memory></p>
 <h2 id="C-98"><a href="#C-98" class="headerlink" title="C++ 98"></a>C++ 98</h2><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="built_in">std</span>::<span class="built_in">auto_ptr</span>&lt;<span class="built_in">std</span>::<span class="built_in">string</span>&gt; <span class="title">ps</span> <span class="params">(<span class="keyword">new</span> <span class="built_in">std</span>::<span class="built_in">string</span>(str))</span></span>;</span><br></pre></td></tr></table></figure>
 
 <h2 id="C-11"><a href="#C-11" class="headerlink" title="C++ 11"></a>C++ 11</h2><ol>
