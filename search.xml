@@ -14,12 +14,12 @@
       </categories>
   </entry>
   <entry>
-    <title>记录点问题</title>
-    <url>/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>最近在做TensorRT的模型检测相关项目，出现了一点问题，训练好的ckpt转换成pb文件，然后对pb进行测试并无异常，再从pb转换为uff后会出现某一类检测异常的情况，其他类检测均正常，待定位问题并解决。</p>
-<a id="more"></a>]]></content>
+    <title>推荐一款手游</title>
+    <url>/2020/05/12/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E6%89%8B%E6%B8%B8/</url>
+    <content><![CDATA[<p>最近痴迷一款单机手游,欲罢不能。名字叫做汉末霸业<del>~</del></p>
+]]></content>
       <categories>
-        <category>疑惑</category>
+        <category>游戏</category>
       </categories>
   </entry>
   <entry>
@@ -808,12 +808,30 @@
       </categories>
   </entry>
   <entry>
-    <title>推荐一款手游</title>
-    <url>/2020/05/12/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E6%89%8B%E6%B8%B8/</url>
-    <content><![CDATA[<p>最近痴迷一款单机手游,欲罢不能。名字叫做汉末霸业<del>~</del></p>
+    <title>记录点问题</title>
+    <url>/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/</url>
+    <content><![CDATA[<p>最近在做TensorRT的模型检测相关项目，出现了一点问题，训练好的ckpt转换成pb文件，然后对pb进行测试并无异常，再从pb转换为uff后会出现某一类检测异常的情况，其他类检测均正常，待定位问题并解决。</p>
+<a id="more"></a>
+
+<p>猜测1：</p>
+<p>是否在pb转换uff过程中丢失了某类的预测精度</p>
+<p>测试结果</p>
+<p>模型frozen_inference_graph_tunnel_0512.uff 迭代次数20万次</p>
+<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/raindrop-0.454517.jpg" alt="记录点问题"></p>
+<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/raindrop-0.916303.jpg" alt="记录点问题"></p>
+<p>结论：结果正常。</p>
+<p>模型frozen_inference_graph_tunnel_fire.uff  迭代次数19万次</p>
+<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/pedestrain-0.666199.jpg" alt="记录点问题"></p>
+<p>结论：结果正常。</p>
+<p>模型frozen_inference_graph_wuxi_11classes.uff  迭代次数14万次</p>
+<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/tuogua-0.806080.jpg" alt="记录点问题"></p>
+<p>结论: 结果正常。</p>
+<p>模型frozen_inference_graph_wuxi_0511.uff  迭代次数11万次</p>
+<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/pedestrain-0.761306.jpg" alt="记录点问题"></p>
+<p>结论: 结果正常。</p>
 ]]></content>
       <categories>
-        <category>游戏</category>
+        <category>疑惑</category>
       </categories>
   </entry>
 </search>
