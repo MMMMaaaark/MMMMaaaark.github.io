@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>wallpaper</title>
-    <url>/2020/05/12/wallpaper/</url>
-    <content><![CDATA[<p>存点壁纸(多图，流量慎点！！！)</p>
-<p><img src="/2020/05/12/wallpaper/v2-7763f11dc9b6998241762988b234aa50_r.jpg" alt="wallpaper"></p>
-<a id="more"></a>
-
-<p><img src="/2020/05/12/wallpaper/wallhaven-0pkr6j.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-13om2v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-13x79v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-2e3kw6.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-2e6wgx.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-392zpd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-45epg3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-47dyz3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4gjvrd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4ym2lg.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4ymev7.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4yzp77.png" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-5dqmm3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6k7lxl.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6kegww.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6q97wx.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-73l7e9.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-839kvo.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96gqz8.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96gw2w.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96kg7d.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96kr5w.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dg3gd3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dge9ll.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dgeqoj.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-j5vwdy.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-kwkg5q.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-mdpdrm.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-mdrlj1.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-n6xdv6.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-nm1oyn.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-nz8p8v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-od1875.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-odpqk9.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-p85lop.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-p8gp83.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-r2e5y1.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-r2ez6m.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-wyw8wr.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-ymv1kd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-zxmxwy.jpg" alt="wallpaper"></p>
-]]></content>
-      <categories>
-        <category>壁纸</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>推荐一款手游</title>
-    <url>/2020/05/12/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E6%89%8B%E6%B8%B8/</url>
-    <content><![CDATA[<p>最近痴迷一款单机手游,欲罢不能。名字叫做汉末霸业<del>~</del></p>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-  </entry>
-  <entry>
     <title>interview</title>
     <url>/2020/05/12/interview/</url>
     <content><![CDATA[<h1 id="1-const"><a href="#1-const" class="headerlink" title="1.const"></a>1.const</h1><h2 id="作用"><a href="#作用" class="headerlink" title="作用"></a>作用</h2><ol>
@@ -808,30 +786,25 @@
       </categories>
   </entry>
   <entry>
-    <title>记录点问题</title>
-    <url>/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/</url>
-    <content><![CDATA[<p>最近在做TensorRT的模型检测相关项目，出现了一点问题，训练好的ckpt转换成pb文件，然后对pb进行测试并无异常，再从pb转换为uff后会出现某一类检测异常的情况，其他类检测均正常，待定位问题并解决。</p>
-<a id="more"></a>
-
-<p>猜测1：</p>
-<p>是否在pb转换uff过程中丢失了某类的预测精度</p>
-<p>测试结果</p>
-<p>模型frozen_inference_graph_tunnel_0512.uff 迭代次数20万次</p>
-<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/raindrop-0.454517.jpg" alt="记录点问题"></p>
-<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/raindrop-0.916303.jpg" alt="记录点问题"></p>
-<p>结论：结果正常。</p>
-<p>模型frozen_inference_graph_tunnel_fire.uff  迭代次数19万次</p>
-<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/pedestrain-0.666199.jpg" alt="记录点问题"></p>
-<p>结论：结果正常。</p>
-<p>模型frozen_inference_graph_wuxi_11classes.uff  迭代次数14万次</p>
-<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/tuogua-0.806080.jpg" alt="记录点问题"></p>
-<p>结论: 结果正常。</p>
-<p>模型frozen_inference_graph_wuxi_0511.uff  迭代次数11万次</p>
-<p><img src="/2020/05/13/%E8%AE%B0%E5%BD%95%E7%82%B9%E9%97%AE%E9%A2%98/pedestrain-0.761306.jpg" alt="记录点问题"></p>
-<p>结论: 结果正常。</p>
+    <title>推荐一款手游</title>
+    <url>/2020/05/12/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E6%89%8B%E6%B8%B8/</url>
+    <content><![CDATA[<p>最近痴迷一款单机手游,欲罢不能。名字叫做汉末霸业<del>~</del></p>
 ]]></content>
       <categories>
-        <category>疑惑</category>
+        <category>游戏</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>wallpaper</title>
+    <url>/2020/05/12/wallpaper/</url>
+    <content><![CDATA[<p>存点壁纸(多图，流量慎点！！！)</p>
+<p><img src="/2020/05/12/wallpaper/v2-7763f11dc9b6998241762988b234aa50_r.jpg" alt="wallpaper"></p>
+<a id="more"></a>
+
+<p><img src="/2020/05/12/wallpaper/wallhaven-0pkr6j.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-13om2v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-13x79v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-2e3kw6.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-2e6wgx.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-392zpd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-45epg3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-47dyz3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4gjvrd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4ym2lg.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4ymev7.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4yzp77.png" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-5dqmm3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6k7lxl.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6kegww.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6q97wx.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-73l7e9.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-839kvo.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96gqz8.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96gw2w.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96kg7d.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96kr5w.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dg3gd3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dge9ll.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dgeqoj.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-j5vwdy.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-kwkg5q.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-mdpdrm.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-mdrlj1.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-n6xdv6.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-nm1oyn.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-nz8p8v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-od1875.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-odpqk9.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-p85lop.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-p8gp83.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-r2e5y1.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-r2ez6m.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-wyw8wr.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-ymv1kd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-zxmxwy.jpg" alt="wallpaper"></p>
+]]></content>
+      <categories>
+        <category>壁纸</category>
       </categories>
   </entry>
 </search>
