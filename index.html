@@ -206,7 +206,7 @@
               <span class="post-meta-item-text">发表于</span>
               
 
-              <time title="创建时间：2020-05-19 11:22:45 / 修改时间：11:27:48" itemprop="dateCreated datePublished" datetime="2020-05-19T11:22:45+08:00">2020-05-19</time>
+              <time title="创建时间：2020-05-19 11:22:45 / 修改时间：11:30:52" itemprop="dateCreated datePublished" datetime="2020-05-19T11:22:45+08:00">2020-05-19</time>
             </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -244,13 +244,14 @@
 
       
           <h2 id="方法一：数组遍历法1"><a href="#方法一：数组遍历法1" class="headerlink" title="方法一：数组遍历法1"></a>方法一：数组遍历法1</h2><p>图像Mat中每个像素点，其实就是一个值(int、float、double、uchar等类型)，而Mat是一个二维数组。</p>
-<p>1.单通道图像(CV_8UC1)；backImg为单通道灰度图</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> <span class="built_in">height</span> = backImg.rows;</span><br><span class="line"><span class="keyword">int</span> <span class="built_in">width</span> = backImg.cols;</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; <span class="built_in">height</span>; i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; <span class="built_in">width</span>; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> index = i * <span class="built_in">width</span> + j;</span><br><span class="line">        <span class="comment">//像素值</span></span><br><span class="line">        <span class="keyword">int</span> data = (<span class="keyword">int</span>)backImg.data[Index];</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>2.三通道图像(CV_8UC3)；backImg、colorImg均为三通道彩色图，且大小相同。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> <span class="built_in">height</span> = backImg.rows;</span><br><span class="line"><span class="keyword">int</span> <span class="built_in">width</span> = backImg.cols;</span><br><span class="line"></span><br><span class="line"><span class="function">Mat <span class="title">subImg</span><span class="params">(<span class="built_in">height</span>,<span class="built_in">width</span>,CV_8UC1)</span></span></span><br><span class="line">subImg.setTo(0);</span><br><span class="line"><span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>;i &lt; <span class="built_in">height</span>;i++)</span><br><span class="line">&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j &lt; <span class="built_in">width</span>; j++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">int</span> index = i * <span class="built_in">width</span> + j;</span><br><span class="line">		<span class="comment">//背景</span></span><br><span class="line">		<span class="keyword">int</span> b1 = (<span class="keyword">int</span>)backImg.data[<span class="number">3</span> * index + <span class="number">0</span>];</span><br><span class="line">		<span class="keyword">int</span> g1 = (<span class="keyword">int</span>)backImg.data[<span class="number">3</span> * index + <span class="number">1</span>];</span><br><span class="line">		<span class="keyword">int</span> r1 = (<span class="keyword">int</span>)backImg.data[<span class="number">3</span> * index + <span class="number">2</span>];</span><br><span class="line">		<span class="comment">//当前图</span></span><br><span class="line">		<span class="keyword">int</span> b2 = (<span class="keyword">int</span>)colorImg.data[<span class="number">3</span> * index + <span class="number">0</span>];</span><br><span class="line">		<span class="keyword">int</span> g2 = (<span class="keyword">int</span>)colorImg.data[<span class="number">3</span> * index + <span class="number">1</span>];</span><br><span class="line">		<span class="keyword">int</span> r2 = (<span class="keyword">int</span>)colorImg.data[<span class="number">3</span> * index + <span class="number">2</span>];</span><br><span class="line">		</span><br><span class="line">		<span class="comment">//th为阈值</span></span><br><span class="line">		<span class="keyword">if</span> (g1 - g2 &gt; th || b1 - b2 &gt; th || r1 - r2 &gt; th)</span><br><span class="line">		&#123;</span><br><span class="line">			subImg.data[index] = <span class="number">255</span>;</span><br><span class="line">		&#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-<p>##方法二：数组遍历法2<br>Mat 类提供了一个at的方法用于取得图像上的点，它是一个模板函数，可以取到任何类型的图像上的点。</p>
-<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">colorReduce</span><span class="params">(Mat&amp; <span class="built_in">image</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>;i&lt;<span class="built_in">image</span>.rows;i++)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">for</span>(<span class="keyword">int</span> j = <span class="number">0</span>;j&lt;<span class="built_in">image</span>.cols;j++)</span><br><span class="line">		&#123;</span><br><span class="line">			<span class="keyword">if</span>(<span class="built_in">image</span>.channels()==<span class="number">1</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="built_in">image</span>.at&lt;uchar&gt;(i,j) = <span class="built_in">image</span>.at&lt;uchar&gt;(i,j) / <span class="number">2</span>;			</span><br><span class="line">			&#125;</span><br><span class="line">			<span class="keyword">else</span> <span class="keyword">if</span>(<span class="built_in">image</span>.channels() == <span class="number">3</span>)</span><br><span class="line">			&#123;</span><br><span class="line">				<span class="comment">//取出彩色图像中i行j列第k(0/1/2)通道的颜色点</span></span><br><span class="line">				<span class="built_in">image</span>.at&lt;Vec3b&gt;(i,j)[<span class="number">0</span>]=<span class="built_in">image</span>.at&lt;Vec3b&gt;(i,j)[<span class="number">0</span>] / <span class="number">2</span>;</span><br><span class="line">				<span class="built_in">image</span>.at&lt;Vec3b&gt;(i,j)[<span class="number">1</span>]=<span class="built_in">image</span>.at&lt;Vec3b&gt;(i,j)[<span class="number">1</span>] / <span class="number">2</span>;</span><br><span class="line">				<span class="built_in">image</span>.at&lt;Vec3b&gt;(i,j)[<span class="number">2</span>]=<span class="built_in">image</span>.at&lt;Vec3b&gt;(i,j)[<span class="number">2</span>] / <span class="number">2</span>;</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/05/19/OpenCV%E9%81%8D%E5%8E%86%E6%96%B9%E6%B3%95/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -292,10 +293,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-05-12 16:46:47 / 修改时间：17:11:47" itemprop="dateCreated datePublished" datetime="2020-05-12T16:46:47+08:00">2020-05-12</time>
+              <time title="创建时间：2020-05-12 16:46:47" itemprop="dateCreated datePublished" datetime="2020-05-12T16:46:47+08:00">2020-05-12</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-05-19 11:30:33" itemprop="dateModified" datetime="2020-05-19T11:30:33+08:00">2020-05-19</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -332,7 +339,6 @@
 
       
           <p>存点壁纸(多图，流量慎点！！！)</p>
-<p><img src="/2020/05/12/wallpaper/v2-7763f11dc9b6998241762988b234aa50_r.jpg" alt="wallpaper"></p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2020/05/12/wallpaper/#more" rel="contents">
