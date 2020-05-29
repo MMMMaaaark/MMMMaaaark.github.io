@@ -1,15 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>推荐一款手游</title>
-    <url>/2020/05/12/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E6%89%8B%E6%B8%B8/</url>
-    <content><![CDATA[<p>最近痴迷一款单机手游,欲罢不能。名字叫做汉末霸业<del>~</del></p>
-]]></content>
-      <categories>
-        <category>游戏</category>
-      </categories>
-  </entry>
-  <entry>
     <title>wallpaper</title>
     <url>/2020/05/12/wallpaper/</url>
     <content><![CDATA[<p>存点壁纸(多图，流量慎点！！！)</p>
@@ -20,6 +11,15 @@
 ]]></content>
       <categories>
         <category>壁纸</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>推荐一款手游</title>
+    <url>/2020/05/12/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E6%89%8B%E6%B8%B8/</url>
+    <content><![CDATA[<p>最近痴迷一款单机手游,欲罢不能。名字叫做汉末霸业<del>~</del></p>
+]]></content>
+      <categories>
+        <category>游戏</category>
       </categories>
   </entry>
   <entry>
@@ -810,6 +810,8 @@
     <title>数据结构</title>
     <url>/2020/05/29/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
     <content><![CDATA[<h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><p><strong>二叉树</strong>：二叉树是有限个结点的集合，这个集合或者是空集，或者是由一个根结点和两株互不相交的二叉树组成，其中一株叫根的做左子树，另一棵叫做根的右子树。</p>
+<a id="more"></a>
+
 <p><strong>二叉树的性质</strong>：</p>
 <ul>
 <li>性质1：在二叉树中第 i 层的结点数最多为2^(i-1)（i ≥ 1）</li>
