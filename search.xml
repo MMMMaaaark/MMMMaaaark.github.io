@@ -1,97 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>wallpaper</title>
-    <url>/2020/05/12/wallpaper/</url>
-    <content><![CDATA[<p>存点壁纸(多图，流量慎点！！！)</p>
-<a id="more"></a>
-
-<p><img src="/2020/05/12/wallpaper/v2-7763f11dc9b6998241762988b234aa50_r.jpg" alt="wallpaper"></p>
-<p><img src="/2020/05/12/wallpaper/wallhaven-0pkr6j.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-13om2v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-13x79v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-2e3kw6.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-2e6wgx.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-392zpd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-45epg3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-47dyz3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4gjvrd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4ym2lg.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4ymev7.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4yzp77.png" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-5dqmm3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6k7lxl.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6kegww.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6q97wx.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-73l7e9.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-839kvo.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96gqz8.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96gw2w.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96kg7d.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96kr5w.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dg3gd3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dge9ll.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dgeqoj.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-j5vwdy.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-kwkg5q.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-mdpdrm.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-mdrlj1.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-n6xdv6.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-nm1oyn.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-nz8p8v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-od1875.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-odpqk9.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-p85lop.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-p8gp83.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-r2e5y1.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-r2ez6m.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-wyw8wr.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-ymv1kd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-zxmxwy.jpg" alt="wallpaper"></p>
-]]></content>
-      <categories>
-        <category>壁纸</category>
-      </categories>
-  </entry>
-  <entry>
     <title>推荐一款手游</title>
     <url>/2020/05/12/%E6%8E%A8%E8%8D%90%E4%B8%80%E6%AC%BE%E6%89%8B%E6%B8%B8/</url>
     <content><![CDATA[<p>最近痴迷一款单机手游,欲罢不能。名字叫做汉末霸业<del>~</del></p>
 ]]></content>
       <categories>
         <category>游戏</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>数据结构</title>
-    <url>/2020/05/29/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
-    <content><![CDATA[<h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><p><strong>二叉树</strong>：二叉树是有限个结点的集合，这个集合或者是空集，或者是由一个根结点和两株互不相交的二叉树组成，其中一株叫根的做左子树，另一棵叫做根的右子树。</p>
-<a id="more"></a>
-
-<p><strong>二叉树的性质</strong>：</p>
-<ul>
-<li>性质1：在二叉树中第 i 层的结点数最多为<code>2^(i-1)（i ≥ 1）</code></li>
-<li>性质2：高度为k的二叉树其结点总数最多为<code>2^k－1（ k ≥ 1）</code></li>
-<li>性质3：对任意的非空二叉树 T ，如果叶结点的个数为 n0，而其度为 2 的结点数为 n2，则：<code>n0 = n2 + 1</code></li>
-</ul>
-<p><strong>满二叉树</strong>：深度为k且有<code>2^k －1</code>个结点的二叉树称为满二叉树</p>
-<p><strong>完全二叉树</strong>：深度为 k 的，有n个结点的二叉树，当且仅当其每个结点都与深度为 k 的满二叉树中编号从 1 至 n 的结点一一对应，称之为完全二叉树。（除最后一层外，每一层上的节点数均达到最大值；在最后一层上只缺少右边的若干结点）</p>
-<ul>
-<li>性质4：具有 n 个结点的完全二叉树的深度为 <code>log2n + 1</code></li>
-</ul>
-<p><strong>注意</strong>：</p>
-<ul>
-<li>仅有前序和后序遍历，不能确定一个二叉树，必须有中序遍历的结果</li>
-</ul>
-<h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>如果一棵完全二叉树的任意一个非终端结点的元素都不小于其左儿子结点和右儿子结点（如果有的话） 的元素，则称此完全二叉树为最大堆。</p>
-<p>同样，如果一棵完全二叉树的任意一个非终端结点的元素都不大于其左儿子结点和右儿子结点（如果有的话）的元素，则称此完全二叉树为最小堆。</p>
-<p><strong>最大堆的根结点中的元素在整个堆中是最大的；</strong></p>
-<p><strong>最小堆的根结点中的元素在整个堆中是最小的。</strong></p>
-<h2 id="哈弗曼树"><a href="#哈弗曼树" class="headerlink" title="哈弗曼树"></a>哈弗曼树</h2><ul>
-<li><p>定义：给定n个权值作为n的叶子结点，构造一棵二叉树，若带权路径长度达到最小，称这样的二叉树为最优二叉树，也称为<strong>哈夫曼树(Huffman tree)。</strong></p>
-</li>
-<li><p>构造：</p>
-<p>假设有n个权值，则构造出的哈夫曼树有n个叶子结点。 n个权值分别设为 <code>w1、w2、…、wn</code>，则哈夫曼树的构造规则为：</p>
-<ol>
-<li>将``w1、w2、…，wn`看成是有 n 棵树的森林(每棵树仅有一个结点)；</li>
-<li>在森林中选出两个根结点的权值最小的树合并，作为一棵新树的左、右子树，且新树的根结点权值为其左、右子树根结点权值之和；</li>
-<li>从森林中删除选取的两棵树，并将新树加入森林；</li>
-<li>重复(2)、(3)步，直到森林中只剩一棵树为止，该树即为所求得的哈夫曼树。</li>
-</ol>
-</li>
-</ul>
-<h2 id="二叉排序树"><a href="#二叉排序树" class="headerlink" title="二叉排序树"></a>二叉排序树</h2><p>二叉排序树（Binary Sort Tree）又称二叉查找树（Binary Search Tree），亦称二叉搜索树。</p>
-<p>二叉排序树或者是一棵空树，或者是具有下列性质的二叉树：</p>
-<ol>
-<li>若左子树不空，则左子树上所有结点的值均小于它的根结点的值；</li>
-<li>若右子树不空，则右子树上所有结点的值均大于或等于它的根结点的值；</li>
-<li>左、右子树也分别为二叉排序树；</li>
-<li>没有键值相等的节点</li>
-</ol>
-<p>二分查找的时间复杂度是O(log(n))，最坏情况下的时间复杂度是O(n)（相当于顺序查找）</p>
-<h2 id="平衡二叉树"><a href="#平衡二叉树" class="headerlink" title="平衡二叉树"></a>平衡二叉树</h2><p>平衡二叉树（balanced binary tree）,又称 AVL 树。它或者是一棵空树,或者是具有如下性质的二叉树：</p>
-<ol>
-<li>它的左子树和右子树都是平衡二叉树，</li>
-<li>左子树和右子树的深度之差的绝对值不超过1。</li>
-</ol>
-<p>平衡二叉树是对二叉搜索树(又称为二叉排序树)的一种改进。二叉搜索树有一个缺点就是，树的结构是无法预料的，随意性很大，它只与节点的值和插入的顺序有关系，往往得到的是一个不平衡的二叉树。在最坏的情况下，可能得到的是一个单支二叉树，其高度和节点数相同，相当于一个单链表，对其正常的时间复杂度有O(log(n))变成了O(n)，从而丧失了二叉排序树的一些应该有的优点。</p>
-<h2 id="B-树"><a href="#B-树" class="headerlink" title="B-树"></a>B-树</h2><p><strong>B-树</strong>：B-树是一种非二叉的查找树， 除了要满足查找树的特性，还要满足以下结构特性：</p>
-<p>一棵 m 阶的B-树：</p>
-<ol>
-<li>树的根或者是一片叶子(一个节点的树),或者其儿子数在 2 和 m 之间。</li>
-<li>除根外，所有的非叶子结点的孩子数在 m/2 和 m 之间。</li>
-<li>所有的叶子结点都在相同的深度。</li>
-</ol>
-<p>B-树的平均深度为logm/2(N)。执行查找的平均时间为O(logm)；</p>
-<h2 id="Trie-树"><a href="#Trie-树" class="headerlink" title="Trie 树"></a>Trie 树</h2><p>Trie 树，又称前缀树，字典树， 是一种有序树，用于保存关联数组，其中的键通常是字符串。与二叉查找树不同，键不是直接保存在节点中，而是由节点在树中的位置决定。一个节点的所有子孙都有相同的前缀，也就是这个节点对应的字符串，而根节点对应空字符串。一般情况下，不是所有的节点都有对应的值，只有叶子节点和部分内部节点所对应的键才有相关的值。</p>
-<p>Trie 树查询和插入时间复杂度都是 O(n)，是一种以空间换时间的方法。当节点树较多的时候，Trie 树占用的内存会很大。</p>
-<p>Trie 树常用于搜索提示。如当输入一个网址，可以自动搜索出可能的选择。当没有完全匹配的搜索结果，可以返回前缀最相似的可能。</p>
-<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="二叉树的遍历"><a href="#二叉树的遍历" class="headerlink" title="二叉树的遍历"></a>二叉树的遍历</h3><h4 id="二叉树前中后序遍历"><a href="#二叉树前中后序遍历" class="headerlink" title="二叉树前中后序遍历"></a>二叉树前中后序遍历</h4><p>二叉树的前中后序遍历，使用递归算法实现最为简单，以前序遍历（<a href="https://leetcode.com/problems/binary-tree-preorder-traversal/" target="_blank" rel="noopener">LeetCode 144</a>）为例：</p>
-<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">preorder</span><span class="params">(TreeNode *p, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; result)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (p == <span class="literal">NULL</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    result.push_back(p-&gt;val);</span><br><span class="line">    preorder(p-&gt;left, result);</span><br><span class="line">    preorder(p-&gt;right, result);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">preorderTraversal</span><span class="params">(TreeNode* root)</span> </span>&#123;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; result;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">nullptr</span>) &#123;</span><br><span class="line">        	<span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">    preorder(root, result);</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-]]></content>
-      <categories>
-        <category>数据结构</category>
       </categories>
   </entry>
   <entry>
@@ -876,6 +791,102 @@
 <h1 id="42-数据结构"><a href="#42-数据结构" class="headerlink" title="42.数据结构"></a>42.数据结构</h1><h2 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h2><h3 id="单链表-双向链表循环链表"><a href="#单链表-双向链表循环链表" class="headerlink" title="单链表   双向链表循环链表"></a>单链表   双向链表循环链表</h3><h2 id="栈和队列"><a href="#栈和队列" class="headerlink" title="栈和队列"></a>栈和队列</h2><h2 id="集合"><a href="#集合" class="headerlink" title="集合"></a>集合</h2><h2 id="哈希表"><a href="#哈希表" class="headerlink" title="哈希表"></a>哈希表</h2><h2 id="树"><a href="#树" class="headerlink" title="树"></a>树</h2><h2 id="堆和优先队列"><a href="#堆和优先队列" class="headerlink" title="堆和优先队列"></a>堆和优先队列</h2><h2 id="图"><a href="#图" class="headerlink" title="图"></a>图</h2>]]></content>
       <categories>
         <category>C++</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>wallpaper</title>
+    <url>/2020/05/12/wallpaper/</url>
+    <content><![CDATA[<p>存点壁纸(多图，流量慎点！！！)</p>
+<a id="more"></a>
+
+<p><img src="/2020/05/12/wallpaper/v2-7763f11dc9b6998241762988b234aa50_r.jpg" alt="wallpaper"></p>
+<p><img src="/2020/05/12/wallpaper/wallhaven-0pkr6j.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-13om2v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-13x79v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-2e3kw6.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-2e6wgx.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-392zpd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-45epg3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-47dyz3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4gjvrd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4ym2lg.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4ymev7.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-4yzp77.png" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-5dqmm3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6k7lxl.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6kegww.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-6q97wx.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-73l7e9.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-839kvo.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96gqz8.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96gw2w.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96kg7d.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-96kr5w.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dg3gd3.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dge9ll.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-dgeqoj.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-j5vwdy.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-kwkg5q.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-mdpdrm.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-mdrlj1.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-n6xdv6.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-nm1oyn.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-nz8p8v.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-od1875.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-odpqk9.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-p85lop.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-p8gp83.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-r2e5y1.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-r2ez6m.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-wyw8wr.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-ymv1kd.jpg" alt="wallpaper"><br><img src="/2020/05/12/wallpaper/wallhaven-zxmxwy.jpg" alt="wallpaper"></p>
+]]></content>
+      <categories>
+        <category>壁纸</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>数据结构</title>
+    <url>/2020/05/29/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/</url>
+    <content><![CDATA[<h2 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h2><p><strong>二叉树</strong>：二叉树是有限个结点的集合，这个集合或者是空集，或者是由一个根结点和两株互不相交的二叉树组成，其中一株叫根的做左子树，另一棵叫做根的右子树。</p>
+<a id="more"></a>
+
+<p><strong>二叉树的性质</strong>：</p>
+<ul>
+<li>性质1：在二叉树中第 i 层的结点数最多为<code>2^(i-1)（i ≥ 1）</code></li>
+<li>性质2：高度为k的二叉树其结点总数最多为<code>2^k－1（ k ≥ 1）</code></li>
+<li>性质3：对任意的非空二叉树 T ，如果叶结点的个数为 n0，而其度为 2 的结点数为 n2，则：<code>n0 = n2 + 1</code></li>
+</ul>
+<p><strong>满二叉树</strong>：深度为k且有<code>2^k －1</code>个结点的二叉树称为满二叉树</p>
+<p><strong>完全二叉树</strong>：深度为 k 的，有n个结点的二叉树，当且仅当其每个结点都与深度为 k 的满二叉树中编号从 1 至 n 的结点一一对应，称之为完全二叉树。（除最后一层外，每一层上的节点数均达到最大值；在最后一层上只缺少右边的若干结点）</p>
+<ul>
+<li>性质4：具有 n 个结点的完全二叉树的深度为 <code>log2n + 1</code></li>
+</ul>
+<p><strong>注意</strong>：</p>
+<ul>
+<li>仅有前序和后序遍历，不能确定一个二叉树，必须有中序遍历的结果</li>
+</ul>
+<h2 id="堆"><a href="#堆" class="headerlink" title="堆"></a>堆</h2><p>如果一棵完全二叉树的任意一个非终端结点的元素都不小于其左儿子结点和右儿子结点（如果有的话） 的元素，则称此完全二叉树为最大堆。</p>
+<p>同样，如果一棵完全二叉树的任意一个非终端结点的元素都不大于其左儿子结点和右儿子结点（如果有的话）的元素，则称此完全二叉树为最小堆。</p>
+<p><strong>最大堆的根结点中的元素在整个堆中是最大的；</strong></p>
+<p><strong>最小堆的根结点中的元素在整个堆中是最小的。</strong></p>
+<h2 id="哈弗曼树"><a href="#哈弗曼树" class="headerlink" title="哈弗曼树"></a>哈弗曼树</h2><ul>
+<li><p>定义：给定n个权值作为n的叶子结点，构造一棵二叉树，若带权路径长度达到最小，称这样的二叉树为最优二叉树，也称为<strong>哈夫曼树(Huffman tree)。</strong></p>
+</li>
+<li><p>构造：</p>
+<p>假设有n个权值，则构造出的哈夫曼树有n个叶子结点。 n个权值分别设为 <code>w1、w2、…、wn</code>，则哈夫曼树的构造规则为：</p>
+<ol>
+<li>将``w1、w2、…，wn`看成是有 n 棵树的森林(每棵树仅有一个结点)；</li>
+<li>在森林中选出两个根结点的权值最小的树合并，作为一棵新树的左、右子树，且新树的根结点权值为其左、右子树根结点权值之和；</li>
+<li>从森林中删除选取的两棵树，并将新树加入森林；</li>
+<li>重复(2)、(3)步，直到森林中只剩一棵树为止，该树即为所求得的哈夫曼树。</li>
+</ol>
+</li>
+</ul>
+<h2 id="二叉排序树"><a href="#二叉排序树" class="headerlink" title="二叉排序树"></a>二叉排序树</h2><p>二叉排序树（Binary Sort Tree）又称二叉查找树（Binary Search Tree），亦称二叉搜索树。</p>
+<p>二叉排序树或者是一棵空树，或者是具有下列性质的二叉树：</p>
+<ol>
+<li>若左子树不空，则左子树上所有结点的值均小于它的根结点的值；</li>
+<li>若右子树不空，则右子树上所有结点的值均大于或等于它的根结点的值；</li>
+<li>左、右子树也分别为二叉排序树；</li>
+<li>没有键值相等的节点</li>
+</ol>
+<p>二分查找的时间复杂度是O(log(n))，最坏情况下的时间复杂度是O(n)（相当于顺序查找）</p>
+<h2 id="平衡二叉树"><a href="#平衡二叉树" class="headerlink" title="平衡二叉树"></a>平衡二叉树</h2><p>平衡二叉树（balanced binary tree）,又称 AVL 树。它或者是一棵空树,或者是具有如下性质的二叉树：</p>
+<ol>
+<li>它的左子树和右子树都是平衡二叉树，</li>
+<li>左子树和右子树的深度之差的绝对值不超过1。</li>
+</ol>
+<p>平衡二叉树是对二叉搜索树(又称为二叉排序树)的一种改进。二叉搜索树有一个缺点就是，树的结构是无法预料的，随意性很大，它只与节点的值和插入的顺序有关系，往往得到的是一个不平衡的二叉树。在最坏的情况下，可能得到的是一个单支二叉树，其高度和节点数相同，相当于一个单链表，对其正常的时间复杂度有O(log(n))变成了O(n)，从而丧失了二叉排序树的一些应该有的优点。</p>
+<h2 id="B-树"><a href="#B-树" class="headerlink" title="B-树"></a>B-树</h2><p><strong>B-树</strong>：B-树是一种非二叉的查找树， 除了要满足查找树的特性，还要满足以下结构特性：</p>
+<p>一棵 m 阶的B-树：</p>
+<ol>
+<li>树的根或者是一片叶子(一个节点的树),或者其儿子数在 2 和 m 之间。</li>
+<li>除根外，所有的非叶子结点的孩子数在 m/2 和 m 之间。</li>
+<li>所有的叶子结点都在相同的深度。</li>
+</ol>
+<p>B-树的平均深度为logm/2(N)。执行查找的平均时间为O(logm)；</p>
+<h2 id="Trie-树"><a href="#Trie-树" class="headerlink" title="Trie 树"></a>Trie 树</h2><p>Trie 树，又称前缀树，字典树， 是一种有序树，用于保存关联数组，其中的键通常是字符串。与二叉查找树不同，键不是直接保存在节点中，而是由节点在树中的位置决定。一个节点的所有子孙都有相同的前缀，也就是这个节点对应的字符串，而根节点对应空字符串。一般情况下，不是所有的节点都有对应的值，只有叶子节点和部分内部节点所对应的键才有相关的值。</p>
+<p>Trie 树查询和插入时间复杂度都是 O(n)，是一种以空间换时间的方法。当节点树较多的时候，Trie 树占用的内存会很大。</p>
+<p>Trie 树常用于搜索提示。如当输入一个网址，可以自动搜索出可能的选择。当没有完全匹配的搜索结果，可以返回前缀最相似的可能。</p>
+<h2 id="例题"><a href="#例题" class="headerlink" title="例题"></a>例题</h2><h3 id="二叉树的遍历"><a href="#二叉树的遍历" class="headerlink" title="二叉树的遍历"></a>二叉树的遍历</h3><h4 id="二叉树前中后序遍历"><a href="#二叉树前中后序遍历" class="headerlink" title="二叉树前中后序遍历"></a>二叉树前中后序遍历</h4><p>二叉树的前中后序遍历，使用递归算法实现最为简单，以前序遍历（<a href="https://leetcode.com/problems/binary-tree-preorder-traversal/" target="_blank" rel="noopener">LeetCode 144</a>）为例：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">preorder</span><span class="params">(TreeNode *p, <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;&amp; result)</span> </span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (p == <span class="literal">NULL</span>) &#123;</span><br><span class="line">        <span class="keyword">return</span>;</span><br><span class="line">    &#125;</span><br><span class="line">    result.push_back(p-&gt;val);</span><br><span class="line">    preorder(p-&gt;left, result);</span><br><span class="line">    preorder(p-&gt;right, result);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">preorderTraversal</span><span class="params">(TreeNode* root)</span> </span>&#123;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; result;</span><br><span class="line">    <span class="keyword">if</span> (root == <span class="literal">nullptr</span>) &#123;</span><br><span class="line">        	<span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line">    preorder(root, result);</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>二叉树的非递归遍历，主要的思想是使用栈(Stack)来进行存储操作，记录经过的节点。</p>
+<p>非递归前序遍历（<a href="https://leetcode.com/problems/binary-tree-preorder-traversal/" target="_blank" rel="noopener">LeetCode 144</a>）：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;  <span class="title">preorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">    TreeNode *p=root;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; result;</span><br><span class="line">    <span class="keyword">if</span> (!p)&#123;</span><br><span class="line">       <span class="keyword">return</span> result; </span><br><span class="line"> &#125;</span><br><span class="line">    <span class="built_in">stack</span>&lt;TreeNode *&gt;q;</span><br><span class="line">    <span class="keyword">while</span> (p || !q.empty())&#123;</span><br><span class="line">        <span class="keyword">if</span> (p)&#123;</span><br><span class="line">            result.push_back(p-&gt;val);</span><br><span class="line">            q.push(p);</span><br><span class="line">            p=p-&gt;left;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            p=q.top();</span><br><span class="line">            q.pop();</span><br><span class="line">            p=p-&gt;right;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>非递归中序遍历（<a href="https://leetcode.com/problems/binary-tree-inorder-traversal/" target="_blank" rel="noopener">LeetCode 94</a>）：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt;  <span class="title">inorderTraversal</span><span class="params">(TreeNode* root)</span></span>&#123;</span><br><span class="line">	TreeNode *p =root;</span><br><span class="line">            <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; result;</span><br><span class="line">	<span class="keyword">if</span>(!p)&#123;</span><br><span class="line">        	<span class="keyword">return</span> result;</span><br><span class="line">    &#125;    </span><br><span class="line">    <span class="built_in">stack</span>&lt;TreeNode *&gt; q;</span><br><span class="line">    <span class="keyword">while</span>(p||!q.empty())&#123;</span><br><span class="line">        <span class="keyword">if</span> (p)&#123;</span><br><span class="line">            q.push(p);</span><br><span class="line">            p=p-&gt;left;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">else</span>&#123;</span><br><span class="line">            p=q.top();</span><br><span class="line">            result.push_back(p-&gt;val);</span><br><span class="line">            q.pop();</span><br><span class="line">            p=p-&gt;right;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>非递归遍历中，后序遍历相对更难实现，因为需要在遍历完左右子节点之后，再遍历根节点，因此不能直接将根节点出栈。这里使用一个 last 指针记录上次出栈的节点，当且仅当节点的右孩子为空（top-&gt;right == NULL），或者右孩子已经出栈（top-&gt;right == last），才将本节点出栈：</p>
+<p>非递归后序遍历（<a href="https://leetcode.com/problems/binary-tree-postorder-traversal/" target="_blank" rel="noopener">LeetCode 145</a>）：</p>
+<figure class="highlight c++"><table><tr><td class="code"><pre><span class="line"><span class="function"><span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; <span class="title">postorderTraversal</span><span class="params">(TreeNode* root)</span> </span>&#123;</span><br><span class="line">    TreeNode *p = root;</span><br><span class="line">    <span class="built_in">vector</span>&lt;<span class="keyword">int</span>&gt; result;</span><br><span class="line">    <span class="keyword">if</span> (!p) &#123;</span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    TreeNode *top, *last = <span class="literal">NULL</span>;</span><br><span class="line">    <span class="built_in">stack</span>&lt;TreeNode *&gt; q;</span><br><span class="line">    <span class="keyword">while</span> (p || !q.empty()) &#123;</span><br><span class="line">        <span class="keyword">if</span> (p) &#123;</span><br><span class="line">            q.push(p);</span><br><span class="line">            p = p-&gt;left;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            top = q.top();</span><br><span class="line">            <span class="keyword">if</span> (top-&gt;right == <span class="literal">NULL</span> || top-&gt;right == last) &#123;</span><br><span class="line">                q.pop();</span><br><span class="line">                result.push_back(top-&gt;val);</span><br><span class="line">                last = top;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                p = top-&gt;right;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> result;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <categories>
+        <category>数据结构</category>
       </categories>
   </entry>
 </search>
